@@ -7,5 +7,6 @@ public class Main {
         SelectionSort selectionSort = new SelectionSort();
         selectionSort.startSorting(arr);
         new InsertionSort().startSorting(arr);
+        new BubbleSort().startSorting(arr);
     }
 }
