@@ -18,7 +18,7 @@ public class InsertionSort {
         }
         System.out.println("Insertion Sort");
         for (int k = 0; k < ar.length; k++) {
-            System.out.println(ar[k]);
+            System.out.print(ar[k] + " ");
         }
     }
 }
