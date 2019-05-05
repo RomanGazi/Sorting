@@ -1,5 +1,8 @@
 package com.company;
 
+// Find the smallest element from array then shift it to the first index.
+// This way selection sort works.
+
 public class SelectionSort {
     public static int findingMinimum(int ar[], int startIndex) {
         int minValue = ar[startIndex];
@@ -29,5 +32,6 @@ public class SelectionSort {
         for (int i = 0; i < ar.length; i++) {
             System.out.print(ar[i] + " ");
         }
+        System.out.println();
     }
 }

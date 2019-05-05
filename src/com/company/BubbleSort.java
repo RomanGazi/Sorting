@@ -1,5 +1,5 @@
 package com.company;
-
+// Sorting by swapping element
 public class BubbleSort {
 
     public static void startSorting(int ar[]) {
@@ -18,6 +18,7 @@ public class BubbleSort {
         for (int i = 0; i < ar.length; i++) {
             System.out.print(ar[i] + " ");
         }
+        System.out.println();
     }
 
     public static void swap(int ar[], int index) {
