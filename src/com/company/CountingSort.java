@@ -1,5 +1,7 @@
 package com.company;
-
+// Find max
+// create a max length array
+// put number in their respective index
 import java.util.Arrays;
 
 public class CountingSort {
