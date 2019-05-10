@@ -2,6 +2,8 @@ package com.company;
 
 // Find the appropriate position and then shift the element
 
+import java.util.Arrays;
+
 public class InsertionSort {
     public static void startSorting(int ar[]) {
         insertionSort(ar);
@@ -18,10 +20,7 @@ public class InsertionSort {
                 j--;
             }
         }
-        System.out.println("Insertion Sort");
-        for (int k = 0; k < ar.length; k++) {
-            System.out.print(ar[k] + " ");
-        }
-        System.out.println();
+        System.out.println("Insertion Sort:");
+        System.out.println(Arrays.toString(ar));
     }
 }

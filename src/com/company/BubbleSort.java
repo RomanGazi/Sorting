@@ -1,4 +1,7 @@
 package com.company;
+
+import java.util.Arrays;
+
 // Sorting by swapping element
 public class BubbleSort {
 
@@ -14,11 +17,8 @@ public class BubbleSort {
                 }
             }
         }
-        System.out.println("Bubble Sort");
-        for (int i = 0; i < ar.length; i++) {
-            System.out.print(ar[i] + " ");
-        }
-        System.out.println();
+        System.out.println("Bubble Sort:");
+        System.out.println(Arrays.toString(ar));
     }
 
     public static void swap(int ar[], int index) {

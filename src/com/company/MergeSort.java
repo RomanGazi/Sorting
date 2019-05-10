@@ -2,6 +2,8 @@ package com.company;
 
 // Divide and conquer rule
 
+import java.util.Arrays;
+
 public class MergeSort {
 
     public static void startSorting(int ar[]) {
@@ -61,10 +63,7 @@ public class MergeSort {
     }
 
     public static void print(int [] ar) {
-        System.out.println("Merge Sort");
-        for (int a = 0; a < ar.length; a++) {
-            System.out.print(ar[a] + " ");
-        }
-        System.out.println();
+        System.out.println("Merge Sort:");
+        System.out.println(Arrays.toString(ar));
     }
 }

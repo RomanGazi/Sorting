@@ -3,6 +3,8 @@ package com.company;
 // Find the smallest element from array then shift it to the first index.
 // This way selection sort works.
 
+import java.util.Arrays;
+
 public class SelectionSort {
     public static int findingMinimum(int ar[], int startIndex) {
         int minValue = ar[startIndex];
@@ -28,10 +30,8 @@ public class SelectionSort {
             int index = findingMinimum(ar,i);
             swap(ar,i,index);
         }
-        System.out.println("Selection Sort");
-        for (int i = 0; i < ar.length; i++) {
-            System.out.print(ar[i] + " ");
-        }
-        System.out.println();
+        System.out.println("Selection Sort:");
+        System.out.println(Arrays.toString(ar));
+
     }
 }
